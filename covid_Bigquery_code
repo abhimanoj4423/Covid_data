@@ -7,13 +7,13 @@ FROM `coviddata-375909.cov_data.cov_vac`        #COVID_VAC.CSV contains info reg
 order by 3,4                                    
 #orderby 3,4 signifies sorting by 3rd column (location) first and then by 4th column (date) in ascending order
 
---**Daily global new covid cases and deaths due to covid**
+# Daily global new covid cases and deaths due to covid
 
 SELECT date,SUM(new_cases)AS Daily_new_cases,SUM(new_deaths)AS Daily_deaths
 FROM `coviddata-375909.cov_data.cov_death` 
 WHERE continent is not null
 GROUP BY date
-ORDER BY 1 desc                                 #Data sorted in descending order to determine the accuracy with online sources
+ORDER BY 1 desc       #Data sorted in descending order to determine the accuracy with online sources
 
 --Likelihood of death by contracting covid in each country
 
