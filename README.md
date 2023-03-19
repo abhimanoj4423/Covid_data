@@ -5,4 +5,5 @@ Cleaning and modifying the covid dataset using
 * Basic functions
 * Joining the two datasets using JOINs.
 * Creating a **running total** column.
-* Using CTE and Create table functions.
+* Create a temporary table using **Common table expressions**.
+* Generate a new table using **CREATE TABLE** function.
