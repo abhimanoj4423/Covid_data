@@ -4,6 +4,7 @@ An Exploratory data analysis project which deals with the exploration and manipu
 
 * Basic functions
 * Joining the two datasets using JOINs.
-* Creating a **running total** column.
-* Creating a temporary table using **Common table expressions**.
-* Generating a new table using **CREATE TABLE** function.
+* Creating **running total** column.
+* Creating temporary table using **Common table expressions**.
+* Generating new table using **CREATE TABLE** function.
+* Altering and Updating existing table
